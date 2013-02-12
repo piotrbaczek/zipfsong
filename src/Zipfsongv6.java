@@ -27,7 +27,7 @@ public class Zipfsongv6 {
             int i = 0;
             List a = new ArrayList();
             while (io.hasMoreTokens() && i < m) {
-                a.add(new Song(Math.abs(io.getLong()), io.getWord(), (i + 1)));
+                a.add(new Song(io.getLong(), io.getWord(), (i + 1)));
                 i++;
             }
             Collections.sort(a);
