@@ -5,7 +5,8 @@ Solution to zipfsong problem on Spotify - as far as I've seen my solution is the
 
 Zipf’s Songs
 Problem ID: zipfsong
-Photo by suneko on Flickr
+
+
 Your slightly pointy-bearded boss has assigned you to write software
 to find the best songs from different music albums. And the
 software should be finished in an hour. But don’t panic, you don’t
@@ -40,11 +41,16 @@ album, and the number of songs to select. Then follow n lines. The i’th of the
 string si, where 0  fi  1012 is the number of times the i’th song was listened to, and si is the name of the song.
 Each song name is at most 30 characters long and consists only of the characters ‘a’-‘z’, ‘0’-‘9’, and underscore
 (‘ ’).
+
 Output
+
 Output a list of the m songs with the highest quality qi, in decreasing order of quality. If two songs have the same
 quality, give precedence to the one appearing first on the album (presumably there was a reason for the producers
 to put that song before the other).
+
+
 Sample input 1 Sample output 1
+
 4 2
 30 one
 30 two
@@ -52,8 +58,11 @@ Sample input 1 Sample output 1
 25 four
 four
 two
-Spotify Job Site Problem: Zipf’s Songs
+
+
+
 Sample input 2 Sample output 2
+
 15 3
 197812 re_hash
 78906 5_4
@@ -73,4 +82,3 @@ Sample input 2 Sample output 2
 19_2000
 clint_eastwood
 tomorrow_comes_today
-Spotify Job Site Problem: Zipf’s Songs
